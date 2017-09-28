@@ -1,0 +1,55 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+.heroes li{
+  cursor: pointer;
+  margin: 0;
+  padding:0;
+}
+.heroes li:hover {
+  background-color: #c1e3ea !important;
+}
+.badge{
+ padding:10px;
+margin-right: 10px;
+}
+.selectedheroes{
+  border:1px solid #c1e3ea;
+  margin-left: 20px;
+}
+
+/*
+.selected {
+  background-color: #CFD8DC !important;
+  color: white;
+}
+.heroes {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 15em;
+}
+.heroes li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+}
+.heroes li.selected:hover {
+  background-color: #BBD8DC !important;
+  color: white;
+}
+.heroes li:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+}
+.heroes .text {
+  position: relative;
+  top: -3px;
+}
+
+*/
