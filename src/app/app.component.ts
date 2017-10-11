@@ -31,14 +31,7 @@ const HEROES: Hero[] = [
     </li>
   </ul>
     </div>
-  <div class="col-md-2 selectedheroes" *ngIf="selectedHero">
-  <h2>{{selectedHero.name}} details!</h2>
-  <div><label>ID: </label>{{selectedHero.id}}</div>
-  <div class="input-group input-group-lg">
-    <label class="input-group-addon">name </label>
-    <input class="form-control" [(ngModel)]="selectedHero.name" placeholder="name">
-  </div>
-  </div>
+      <hero-detail [hero]="selectedHero"></hero-detail>
     </div>
   `
 })
